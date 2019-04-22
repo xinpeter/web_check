@@ -4,6 +4,6 @@ c_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 try:
     urllib.request.urlopen("http://www.leyou999.com")
 
-    print("%s 网站正常1" %c_time)
+    print("%s 网站正常2" %c_time)
 except Exception as e:
     print(e)
